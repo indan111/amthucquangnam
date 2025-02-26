@@ -1,0 +1,28 @@
+
+        
+        h6{font-size: 20px;text-indent: 20px;}
+        p{font-size: 20px;text-indent: 20px;}
+        p1 {font-size: 20px;color: darkred;padding-right: 20px;margin-right: }   
+        h2{text-align: center;;color: darkred;}
+        h3{font-family: sans-serif;font-size: 30px;color:darkred;}
+        body{background: linear-gradient(to right, #F9E3A1, #ffffff);}
+        .search{line-height: 35px;margin-right: 25px;margin-top: 25px;}
+        .intro {text-align: center;margin: 20px; padding: 20px; background-color:#fff;box-shadow:0 2px 9px rgba(0, 0, 0, 0.1);}
+        .intro h1 { font-size: 2.5em;color:darkred;}
+        .intro p {  font-size: 1.2em;color: #333;}
+        .picture{width: 500px; height: 400px;display: block;margin-left: auto; margin-right: auto;width: 800px;border-radius: 20px;border-image: url(border.png)50 round;}
+        .video{width: 500px; height: 400px;}
+        header{background:linear-gradient(to top, #E27D49, #D88C4A);color: white;padding: 20px;text-align: center;}
+        nav {background-color: #333;overflow: hidden;}
+        nav a{float: left;display: block;color: white;padding: 14px 20px;text-align: center;text-decoration: none;}
+        footer {background-color: #333;color: white;text-align: center;padding: 5px;position: fixed;width: 100%;bottom: 0;}
+        .form-container {margin-top: 20px;background-color: #ffffff;padding: 10px;border-radius: 8px;}
+        .form-container input, .form-container textarea {width: 100%;padding: 5px;margin-bottom: 10px;border: 1px solid #ddd;border-radius: 4px;}
+        .form-container button {background-color: #4CAF50;color: white;padding: 5px 10px;border: none;border-radius: 4px;cursor: pointer;}
+        .form-container button:hover {background-color: #45a049;}
+        #picture{margin: 20px ;padding: 40px ;width: 50 px;height:500px;box-sizing: border-box;overflow:scroll;}
+        .order-form form {width: 60%;margin: 0 auto;background-color: #fff;padding: 20px;border-radius: 8px;box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);}
+        .order-form label {font-size: 1.1em;color: #333;margin-bottom: 8px;display: block;}
+        .order-form input, .order-form select {width: 100%;padding: 10px;margin: 10px 0;border-radius: 5px;border: 1px solid #ddd;}
+        .order-form input[type="submit"] {background-color: #3c8d99;color: #fff;cursor: pointer;}
+        .order-form input[type="submit"]:hover {background-color: #4CAF50;}

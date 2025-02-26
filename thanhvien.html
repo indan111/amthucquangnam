@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Thành Viên Nhóm</title>
+    <link rel="stylesheet" href="styles.css">
+      <style>
+        * {margin: 0;padding: 0;box-sizing: border-box;}
+
+        body {font-family: Arial, sans-serif;background-color: #f4f4f9;color: #333;}
+
+        .container {width: 80%;margin: 0 auto;padding: 20px 0;}
+
+        header {text-align: center;margin-bottom: 50px;}
+        header h1 {font-size: 36px;color: #333;font-weight: 700;text-transform: uppercase;}
+        header p {font-size: 18px;color: #777;}
+
+        .team {display: flex;justify-content: space-around;flex-wrap: wrap;}
+
+        .member {background-color: #fff;border-radius: 10px;box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);overflow: hidden;width: 22%;margin-bottom: 30px;text-align: center;transition: transform 0.3s ease;}
+
+        .member:hover {transform: translateY(-10px);}
+
+        .member img {width: 100%;height: auto;object-fit: cover;border-bottom: 3px solid #eee;}
+
+        .member h2 {font-size: 24px;margin: 15px 0;color: #333;}
+
+        .member p {font-size: 16px;color: #555;margin-bottom: 20px;padding: 0 15px;}
+
+        @media (max-width: 768px) {
+        .team {flex-direction: column;align-items: center;}
+
+        .member {width: 80%;margin-bottom: 30px;}
+}
+        * {margin: 0;padding: 0;box-sizing: border-box;}
+        .lindan{color:red;}
+
+        body {font-family: Arial, sans-serif;background: linear-gradient(135deg, rgba(255, 174, 102, 0.8), rgba(255, 193, 107, 0.8));background-size: cover;background-position: center;color: #333;height: 100vh;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+        .container {width: 80%;margin: 0 auto;padding: 20px 0;background-color: #fff;border-radius: 15px;box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);}
+
+        header {text-align: center;margin-bottom: 50px;}
+
+        header h1 {font-size: 36px;color: #333;font-weight: 700;text-transform: uppercase;letter-spacing: 2px;}
+
+        header p {font-size: 18px
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>THÀNH VIÊN NHÓM</h1>
+            <p>Hãy gặp gỡ các thành viên của nhóm chúng tôi!</p>
+        </header>
+
+        <section class="team">
+            <div class="member">
+                <img src="lindan.PNG" alt="Thành viên 1">
+                <h2 class="lindan">Nguyễn Thị Lin Đan</h2>
+                <p>Trưởng nhóm</p>
+                <p></p>
+            </div>
+
+            <div class="member">
+                <img src="nhi.PNG" alt="Thành viên 2">
+                <h2>Võ Nguyên Hà Nhi</h2>
+                <p>Thành viên</p>
+                <p><em>"Được nhiều anh thương, em cung Bạch Dương"</em></p>
+            </div>
+
+            <div class="member">
+                <img src="quynhtram.PNG" alt="Thành viên 3">
+                <h2>Nguyễn Thùy Quỳnh Trâm</h2>
+                <p>Thành viên</p>
+                <p></p>
+            </div>
+
+            <div class="member">
+                <img src="huyhoang.PNG" alt="Thành viên 4">
+                <h2>Đỗ Huy Hoàng</h2>
+                <p>Thành viên</p>
+                <p><em>"Phải sống sao cho khỏi xót xa, ân hận vì những năm tháng đã sống hoài, sống phí"</em></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
